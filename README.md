@@ -1,2 +1,3 @@
-# configs
-@bjeco/configs
+# @bjeco/configs
+
+My personal configuration presets for common toolchain components

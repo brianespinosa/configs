@@ -1,0 +1,8 @@
+{
+  "name": "@bjeco/configs",
+  "version": "0.1.0",
+  "description": "My personal configuration presets for common toolchain components",
+  "repository": "git@github.com:brianespinosa/configs.git",
+  "author": "Brian Espinosa <b@bje.co>",
+  "license": "MIT"
+}
