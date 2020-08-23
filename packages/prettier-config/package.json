@@ -3,6 +3,7 @@
   "version": "0.1.1-alpha.0",
   "license": "MIT",
   "main": "src/index.js",
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/packages/prettier-config",
   "repository": {
     "directory": "packages/prettier-config",
     "type": "git",
