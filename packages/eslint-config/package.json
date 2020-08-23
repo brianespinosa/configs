@@ -1,0 +1,14 @@
+{
+  "name": "@bjeco/eslint-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "directory": "packages/eslint-config",
+    "type": "git",
+    "url": "ssh://git@github.com:brianespinosa/configs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

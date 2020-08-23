@@ -1,0 +1,14 @@
+{
+  "name": "@bjeco/babel-preset",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "directory": "packages/babel-preset",
+    "type": "git",
+    "url": "ssh://git@github.com:brianespinosa/configs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

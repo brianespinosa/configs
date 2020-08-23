@@ -1,8 +1,23 @@
 {
-  "name": "@bjeco/configs",
-  "version": "0.1.0",
-  "description": "My personal configuration presets for common toolchain components",
+  "name": "configs",
+  "description": "Personal configuration presets for common toolchain components",
   "repository": "git@github.com:brianespinosa/configs.git",
   "author": "Brian Espinosa <b@bje.co>",
-  "license": "MIT"
+  "private": true,
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "babel-preset": "yarn workspace @bjeco/babel-preset",
+    "eslint-config": "yarn workspace @bjeco/eslint-config",
+    "prettier-config": "yarn workspace @bjeco/prettier-config"
+  },
+  "devDependencies": {
+    "@bjeco/prettier-config": "link:packages/prettier-config",
+    "lerna": "3.22.1"
+  },
+  "prettier": "@bjeco/prettier-config"
 }

@@ -1,0 +1,17 @@
+{
+  "name": "@bjeco/prettier-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "directory": "packages/prettier-config",
+    "type": "git",
+    "url": "ssh://git@github.com:brianespinosa/configs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "prettier": "2.0.5"
+  }
+}
