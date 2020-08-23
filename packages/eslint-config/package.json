@@ -1,6 +1,6 @@
 {
   "name": "@bjeco/eslint-config",
-  "version": "0.1.1-alpha.0",
+  "version": "0.1.1-alpha.1",
   "license": "MIT",
   "main": "src/index.js",
   "homepage": "https://github.com/brianespinosa/configs/tree/main/packages/eslint-config",
