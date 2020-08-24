@@ -4,7 +4,6 @@
   "version": "independent",
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish"
     }
   }
