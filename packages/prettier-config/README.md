@@ -1,5 +1,7 @@
 # prettier-config
 
+![npm (scoped)](https://img.shields.io/npm/v/@bjeco/prettier-config)
+
 Portable configuration for [Prettier](https://prettier.io/)
 
 ## Install
