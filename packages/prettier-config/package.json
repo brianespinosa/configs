@@ -1,6 +1,6 @@
 {
   "name": "@bjeco/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/index.js",
   "dependencies": {
     "prettier": "2.0.5"
