@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: [
     './rules/eslint.js',
+    './rules/jest.js',
     './rules/json-format.js',
     './rules/jsx-a11y.js',
     './rules/react-hooks.js',
