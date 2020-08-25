@@ -7,7 +7,7 @@ My personal configuration presets for common toolchain components
 ## REPO TODO
 
 - [ ] Update tooling to auto update all README files
-- [ ] Add a `./templates` directory with some "create app" boilerplate templates that use these configs
-  - [ ] Add to yarn workspaces config
-  - [ ] Determine if `./packages` still makes sense or if that should move to `./configs`
+- [x] Add a `./templates` directory with some "create app" boilerplate templates that use these configs
+  - [x] Add to yarn workspaces config
+  - [x] Determine if `./packages` still makes sense or if that should move to `./configs`
 - [ ] Create a working list of a few other configs/templates that are needed
