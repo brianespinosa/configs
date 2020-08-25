@@ -1,6 +1,13 @@
 {
   "name": "@bjeco/eslint-config",
   "version": "0.2.1",
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/packages/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:brianespinosa/configs.git",
+    "directory": "packages/eslint-config"
+  },
+  "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
     "eslint": "7.7.0",
@@ -10,13 +17,6 @@
     "eslint-plugin-react-hooks": "4.1.0",
     "eslint-plugin-unicorn": "21.0.0"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:brianespinosa/configs.git",
-    "directory": "packages/eslint-config"
-  },
-  "homepage": "https://github.com/brianespinosa/configs/tree/main/packages/eslint-config",
   "publishConfig": {
     "access": "public"
   }

@@ -1,0 +1,31 @@
+{
+  "name": "@bjeco/next-template",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [
+    "nextjs",
+    "create-next-app",
+    "template"
+  ],
+  "scripts": {
+    "build": "next build",
+    "start": "next dev",
+    "serve": "next start"
+  },
+  "prettier": "@bjeco/prettier-config",
+  "eslintConfig": {
+    "extends": "@bjeco",
+    "rules": {
+      "react/react-in-jsx-scope": "off"
+    }
+  },
+  "dependencies": {
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@bjeco/eslint-config": "*",
+    "@bjeco/prettier-config": "*"
+  }
+}
