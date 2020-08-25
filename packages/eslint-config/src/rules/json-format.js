@@ -7,7 +7,7 @@ module.exports = {
     {
       files: ['package.json'],
       settings: {
-        'json/sort-package-json': 'pro',
+        'json/sort-package-json': 'standard',
       },
     },
   ],
