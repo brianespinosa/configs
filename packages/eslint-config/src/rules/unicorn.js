@@ -3,5 +3,7 @@
 module.exports = {
   plugins: ['unicorn'],
   extends: 'plugin:unicorn/recommended',
-  rules: {},
+  rules: {
+    'unicorn/filename-case': 'off',
+  },
 };

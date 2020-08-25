@@ -3,5 +3,10 @@
 module.exports = {
   plugins: ['react'],
   extends: 'plugin:react/recommended',
-  rules: {},
+  rules: {
+    'react/prop-types': [
+      'error',
+      { ignore: ['children'], skipUndeclared: true },
+    ],
+  },
 };
