@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "build": "next build",
-    "start": "next dev",
-    "serve": "next start"
+    "serve": "next start",
+    "start": "next dev"
   },
   "prettier": "@bjeco/prettier-config",
   "eslintConfig": {
