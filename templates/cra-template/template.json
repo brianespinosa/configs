@@ -9,6 +9,10 @@
     "devDependencies": {
       "@bjeco/eslint-config": "*",
       "@bjeco/prettier-config": "*"
+    },
+    "prettier": "@bjeco/prettier-config",
+    "eslintConfig": {
+      "extends": "@bjeco"
     }
   }
 }

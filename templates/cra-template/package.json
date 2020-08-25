@@ -7,10 +7,11 @@
     "create-react-app",
     "template"
   ],
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/templates/cra-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template"
+    "url": "ssh://git@github.com:brianespinosa/configs.git",
+    "directory": "templates/cra-template"
   },
   "license": "MIT",
   "files": [

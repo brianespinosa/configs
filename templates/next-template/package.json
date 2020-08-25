@@ -1,12 +1,17 @@
 {
   "name": "@bjeco/next-template",
   "version": "0.1.0",
-  "private": true,
   "keywords": [
     "nextjs",
     "create-next-app",
     "template"
   ],
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/templates/next-template",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:brianespinosa/configs.git",
+    "directory": "templates/next-template"
+  },
   "scripts": {
     "build": "next build",
     "serve": "next start",

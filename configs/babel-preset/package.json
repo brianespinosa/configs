@@ -1,11 +1,11 @@
 {
   "name": "@bjeco/babel-preset",
   "version": "0.1.1-alpha.3",
-  "homepage": "https://github.com/brianespinosa/configs/tree/main/packages/babel-preset",
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/configs/babel-preset",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:brianespinosa/configs.git",
-    "directory": "packages/babel-preset"
+    "directory": "configs/babel-preset"
   },
   "license": "MIT",
   "main": "src/index.js",

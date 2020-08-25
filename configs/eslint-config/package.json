@@ -1,11 +1,11 @@
 {
   "name": "@bjeco/eslint-config",
   "version": "0.2.1",
-  "homepage": "https://github.com/brianespinosa/configs/tree/main/packages/eslint-config",
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/configs/eslint-config",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:brianespinosa/configs.git",
-    "directory": "packages/eslint-config"
+    "directory": "configs/eslint-config"
   },
   "license": "MIT",
   "main": "src/index.js",

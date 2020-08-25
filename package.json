@@ -25,6 +25,7 @@
   "devDependencies": {
     "@bjeco/eslint-config": "link:configs/eslint-config",
     "@bjeco/prettier-config": "link:configs/prettier-config",
+    "jest": "26.4.2",
     "lerna": "3.22.1"
   }
 }
