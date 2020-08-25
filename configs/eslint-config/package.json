@@ -1,6 +1,6 @@
 {
   "name": "@bjeco/eslint-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/brianespinosa/configs/tree/main/configs/eslint-config",
   "repository": {
     "type": "git",
