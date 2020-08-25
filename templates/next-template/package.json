@@ -32,5 +32,9 @@
   "devDependencies": {
     "@bjeco/eslint-config": "^0.2.2",
     "@bjeco/prettier-config": "^0.1.4"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "09488b1d14c9791554bcbbc5c6453806e40ab630"
 }
