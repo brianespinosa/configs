@@ -22,9 +22,12 @@ module.exports = {
     'sort-imports': [
       'error',
       {
-        memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple'],
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
       },
     ],
+    'sort-keys': 'warn',
+    'sort-vars': 'error',
     strict: ['error', 'never'],
     'vars-on-top': 'error',
     yoda: 'error',

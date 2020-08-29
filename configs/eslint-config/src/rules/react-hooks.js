@@ -4,7 +4,7 @@
  */
 
 module.exports = {
-  plugins: ['react-hooks'],
   extends: 'plugin:react-hooks/recommended',
+  plugins: ['react-hooks'],
   rules: {},
 };

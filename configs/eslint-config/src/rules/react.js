@@ -1,12 +1,15 @@
 // https://github.com/yannickcr/eslint-plugin-react
 
 module.exports = {
-  plugins: ['react'],
   extends: 'plugin:react/recommended',
+  plugins: ['react'],
   rules: {
     'react/prop-types': [
       'error',
-      { ignore: ['children'], skipUndeclared: true },
+      {
+        ignore: ['children'],
+        skipUndeclared: true,
+      },
     ],
   },
 };

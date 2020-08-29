@@ -1,8 +1,16 @@
 // https://github.com/jest-community/eslint-plugin-jest
 
 module.exports = {
-  plugins: ['jest'],
   extends: 'plugin:jest/recommended',
+  overrides: [
+    {
+      env: {
+        'jest/globals': true,
+      },
+      files: ['*.test.js'],
+    },
+  ],
+  plugins: ['jest'],
   rules: {
     'jest/consistent-test-it': 'error',
     'jest/lowercase-name': 'error',
@@ -24,13 +32,4 @@ module.exports = {
     'jest/require-top-level-describe': 'error',
     'jest/valid-title': 'error',
   },
-  overrides: [
-    {
-      files: ['*.test.js'],
-      // Only add jest globals for test files
-      env: {
-        'jest/globals': true,
-      },
-    },
-  ],
 };

@@ -1,8 +1,8 @@
 // https://github.com/sindresorhus/eslint-plugin-unicorn
 
 module.exports = {
-  plugins: ['unicorn'],
   extends: 'plugin:unicorn/recommended',
+  plugins: ['unicorn'],
   rules: {
     'unicorn/filename-case': 'off',
   },
