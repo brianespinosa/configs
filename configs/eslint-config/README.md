@@ -7,7 +7,7 @@ Portable configuration for [Eslint](https://eslint.org/)
 ## Install
 
 ```
-yarn add -D @bjeco/eslint-config eslint eslint-plugin-jest eslint-plugin-json-format eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unicorn
+yarn add -D @bjeco/eslint-config eslint eslint-plugin-jest eslint-plugin-json-format eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unicorn@19
 ```
 
 ## Setup
