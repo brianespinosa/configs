@@ -15,6 +15,7 @@
     "babel-preset": "yarn workspace @bjeco/babel-preset",
     "cra-template": "yarn workspace @bjeco/cra-template",
     "eslint-config": "yarn workspace @bjeco/eslint-config",
+    "lint": "eslint ./",
     "next-template": "yarn workspace @bjeco/next-template",
     "prettier-config": "yarn workspace @bjeco/prettier-config"
   },
