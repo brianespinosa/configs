@@ -1,6 +1,6 @@
 {
   "name": "@bjeco/next-template",
-  "version": "0.1.1-alpha.4",
+  "version": "0.1.1-alpha.5",
   "keywords": [
     "nextjs",
     "create-next-app",
@@ -30,7 +30,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@bjeco/eslint-config": "^1.1.0",
+    "@bjeco/eslint-config": "^1.2.0",
     "@bjeco/prettier-config": "^0.1.5"
   },
   "publishConfig": {
