@@ -2,10 +2,14 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "css.validate": false,
   "cssModules.camelCase": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -19,7 +23,9 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "git.autofetch": true,
+  "less.validate": false,
   "prettier.requireConfig": true,
+  "scss.validate": false,
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#fcb31c",
     "activityBar.activeBorder": "#fcb31c",
