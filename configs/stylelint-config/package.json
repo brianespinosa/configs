@@ -1,0 +1,25 @@
+{
+  "name": "@bjeco/stylelint-config",
+  "version": "0.0.1",
+  "homepage": "https://github.com/brianespinosa/configs/tree/main/configs/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:brianespinosa/configs.git",
+    "directory": "configs/stylelint-config"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "stylelint": "13.6.1",
+    "stylelint-config-idiomatic-order": "8.1.0",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-order": "4.1.0"
+  },
+  "scripts": {
+    "postinstall": "stylelint-config-prettier-check"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

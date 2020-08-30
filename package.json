@@ -15,7 +15,9 @@
     "babel-preset": "yarn workspace @bjeco/babel-preset",
     "cra-template": "yarn workspace @bjeco/cra-template",
     "eslint-config": "yarn workspace @bjeco/eslint-config",
+    "stylelint-config": "yarn workspace @bjeco/stylelint-config",
     "lint": "eslint ./",
+    "lint:style": "stylelint **/*.{css,scss,sass} --fix",
     "next-template": "yarn workspace @bjeco/next-template",
     "prettier-config": "yarn workspace @bjeco/prettier-config"
   },
@@ -23,9 +25,13 @@
   "eslintConfig": {
     "extends": "@bjeco"
   },
+  "stylelint": {
+    "extends": "@bjeco/stylelint-config"
+  },
   "devDependencies": {
     "@bjeco/eslint-config": "link:configs/eslint-config",
     "@bjeco/prettier-config": "link:configs/prettier-config",
+    "@bjeco/stylelint-config": "link:configs/stylelint-config",
     "eslint": "7.7.0",
     "eslint-plugin-jest": "23.20.0",
     "eslint-plugin-json-format": "2.0.1",
@@ -33,8 +39,28 @@
     "eslint-plugin-react": "7.20.6",
     "eslint-plugin-react-hooks": "4.1.0",
     "eslint-plugin-unicorn": "19.0.1",
+    "husky": "1.3.1",
     "jest": "26.4.2",
     "lerna": "3.22.1",
+    "lint-staged": "10.2.11",
     "typescript": "4.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,scss,sass,less}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{md,mdx,html}": [
+      "prettier --write"
+    ]
   }
 }
