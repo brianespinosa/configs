@@ -1,8 +1,8 @@
-# prettier-config
+# stylelint-config
 
-![npm (scoped)](https://img.shields.io/npm/v/@bjeco/prettier-config)
+![npm (scoped)](https://img.shields.io/npm/v/@bjeco/stylelint-config)
 
-Portable configuration for [Prettier](https://prettier.io/)
+Portable configuration for [Stylelint](https://stylelint.io/)
 
 ## Install
 
@@ -10,7 +10,7 @@ Portable configuration for [Prettier](https://prettier.io/)
 yarn add -D @bjeco/stylelint-config
 ```
 
-> This configuration is turn-key and includes all dependencies as well as the preset.
+> This configuration is turn-key and includes all plugin dependencies as well as the config.
 
 ## Setup
 

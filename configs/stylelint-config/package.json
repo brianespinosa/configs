@@ -9,15 +9,17 @@
   },
   "license": "MIT",
   "main": "src/index.js",
+  "scripts": {
+    "postinstall": "stylelint-config-prettier-check"
+  },
   "dependencies": {
     "stylelint": "13.6.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-recommended-scss": "4.2.0",
     "stylelint-config-standard": "20.0.0",
-    "stylelint-order": "4.1.0"
-  },
-  "scripts": {
-    "postinstall": "stylelint-config-prettier-check"
+    "stylelint-order": "4.1.0",
+    "stylelint-scss": "3.18.0"
   },
   "publishConfig": {
     "access": "public"
