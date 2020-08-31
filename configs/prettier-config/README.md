@@ -16,7 +16,7 @@ yarn add -D @bjeco/prettier-config
 
 Add a `"prettier"` parameter to the package.json file which specifies the shared config:
 
-```
+```json
 {
   "name": "my-library",
   "version": "9000.0.1",
@@ -25,3 +25,7 @@ Add a `"prettier"` parameter to the package.json file which specifies the shared
 ```
 
 [Prettier configuration settings](https://prettier.io/docs/en/configuration.html#sharing-configurations)
+
+## TODO
+
+- [ ] Add VSCode plugin and settings for auto fix setup

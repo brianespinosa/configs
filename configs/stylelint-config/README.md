@@ -16,7 +16,7 @@ yarn add -D @bjeco/stylelint-config
 
 Add a `"stylelint"` parameter to the package.json file which specifies the shared config:
 
-```
+```json
 {
   "name": "my-library",
   "version": "9000.0.1",
@@ -26,4 +26,23 @@ Add a `"stylelint"` parameter to the package.json file which specifies the share
 }
 ```
 
-[Prettier configuration settings](https://prettier.io/docs/en/configuration.html#sharing-configurations)
+## VSCode
+
+For best results, use in conjunction with the VSCode plugin to auto fix any issues related to this configuration
+
+#### Plugin
+
+[stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
+#### Settings
+
+```json settings.json
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
+```

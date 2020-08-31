@@ -14,7 +14,7 @@ yarn add -D @bjeco/eslint-config eslint eslint-plugin-jest eslint-plugin-json-fo
 
 Add an `"eslintConfig"` parameter to the package.json file as an object containing an "extends" parameter:
 
-```
+```json
 {
   "name": "my-library",
   "version": "9000.0.1",
@@ -30,11 +30,12 @@ Add an `"eslintConfig"` parameter to the package.json file as an object containi
 
 ## TODO
 
+- [ ] Add VSCode plugin and settings for auto fix setup
 - [ ] Go through existing recommended rule sets and extend them with additional rules
-  - [ ] eslint core
+  - [x] eslint core
   - [x] json-format
   - [ ] jsx-a11y
   - [ ] react
   - [x] react-hooks
-  - [ ] unicorn
+  - [x] unicorn
 - [ ] Figure out [what other lint plugins](https://github.com/dustinspecker/awesome-eslint#plugins) should be added here
