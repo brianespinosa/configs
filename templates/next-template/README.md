@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`@bjeco/next-template`](https://github.com/brianespinosa/configs/tree/main/templates/next-template)
 
+## Create A Project
+
+```
+npx create-next-app -e https://github.com/brianespinosa/configs --example-path templates/next-template my-app
+```
+
 ## Opinionated
 
 This template is a little more opinionated than the default [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) template.
