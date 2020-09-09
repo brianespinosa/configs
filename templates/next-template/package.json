@@ -1,6 +1,6 @@
 {
   "name": "@bjeco/next-template",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "keywords": [
     "nextjs",
     "create-next-app",
@@ -54,7 +54,7 @@
     "sass": "1.26.10"
   },
   "devDependencies": {
-    "@bjeco/eslint-config": "^1.2.1",
+    "@bjeco/eslint-config": "^1.3.0",
     "@bjeco/prettier-config": "^0.1.6",
     "@bjeco/stylelint-config": "^0.1.1",
     "eslint": "7.7.0",
