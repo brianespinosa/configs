@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This repository has been archived. A different, more reusable configuration approach will be taken that does not require the overhead of keeping dependencies up to date. Instead, there will be one devDependency to install instead of separate configs published.
+
 # @bjeco/configs
 
 My personal configuration presets for common toolchain components
